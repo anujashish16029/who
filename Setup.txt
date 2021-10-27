@@ -1,0 +1,6 @@
+1.	Install MariaDB
+2.	CREATE DATABASE beatmanagement;
+3.	CREATE USER 'beatmanager'@'%' IDENTIFIED BY 'RailBeat#2021';
+4.	GRANT ALL ON beatmanagement.* TO 'beatmanager'@'%';
+5.	FLUSH PRIVILEGES;
+6.	Backend on 8001, Frontend on 8000
